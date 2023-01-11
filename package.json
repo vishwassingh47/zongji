@@ -1,6 +1,6 @@
 {
   "name": "@vlasky/zongji",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "A MySQL 8.0-compatible fork of ZongJi - a MySQL binlog listener for Node.js.",
   "main": "index.js",
   "directories": {
@@ -25,7 +25,8 @@
     "rfanth <rfa@rfanth.com> (https://github.com/rfanth)",
     "Alexander Radyushin <alexander@fjedi.com> (https://github.com/fjedi)",
     "Yousef El-Dardiry <yousefdardiry@gmail.com> (https://github.com/YousefED)",
-    "Roopendra Talekar <roopendratalekar@gmail.com> (https://github.com/roopen219)"
+    "Roopendra Talekar <roopendratalekar@gmail.com> (https://github.com/roopen219)",
+    "Juan Ferrer Toribio (https://github.com/juan-ferrer-toribio)"
   ],
   "license": "MIT",
   "engines": {
@@ -36,8 +37,8 @@
     "tap": "14.10.7"
   },
   "dependencies": {
-    "big-integer": "1.6.48",
-    "iconv-lite": "0.6.2",
-    "@vlasky/mysql": "^2.18.5"
+    "big-integer": "1.6.51",
+    "iconv-lite": "0.6.3",
+    "@vlasky/mysql": "^2.18.6"
   }
 }
