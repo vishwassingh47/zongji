@@ -1,6 +1,6 @@
 {
-  "name": "@vlasky/zongji",
-  "version": "0.5.9",
+  "name": "@vishwassingh47/zongji",
+  "version": "0.5.10",
   "description": "A MySQL 8.0-compatible fork of ZongJi - a MySQL binlog listener for Node.js.",
   "main": "index.js",
   "directories": {
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vlasky/zongji"
+    "url": "https://github.com/vishwassingh47/zongji"
   },
   "keywords": [
     "mysql",
     "binlog"
   ],
-  "author": "Vlad Lasky <github@vladlasky.com> (https://github.com/vlasky)",
+  "author": "Vishwas Singh (https://github.com/vishwassingh47)",
   "contributors": [
     "Nevill <nevill.dutt@gmail.com> (https://github.com/nevill)",
     "numtel <ben@latenightsketches.com> (https://github.com/numtel)",
@@ -26,7 +26,8 @@
     "Alexander Radyushin <alexander@fjedi.com> (https://github.com/fjedi)",
     "Yousef El-Dardiry <yousefdardiry@gmail.com> (https://github.com/YousefED)",
     "Roopendra Talekar <roopendratalekar@gmail.com> (https://github.com/roopen219)",
-    "Juan Ferrer Toribio (https://github.com/juan-ferrer-toribio)"
+    "Juan Ferrer Toribio (https://github.com/juan-ferrer-toribio)",
+    "Vlad Lasky (https://github.com/vlasky)"
   ],
   "license": "MIT",
   "engines": {

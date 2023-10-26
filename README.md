@@ -1,6 +1,11 @@
+# Zongji
 A MySQL 8.0-compatible fork of ZongJi - a MySQL binlog listener for Node.js, [originally created by Nevill Dutt](https://github.com/nevill/zongji).
 
-[@vlasky/zongji](https://github.com/vlasky/zongji) has been tested working with MySQL 5.5, 5.6, 5.7 and 8.0.
+This version of Zongji is created as there are several OPEN ISSUES and OPEN PR's in original ZongJi package.
+
+Fixes made by [@vlasky/zongji](https://github.com/vlasky/zongji) and [rodrigogs/zongji](https://github.com/rodrigogs/zongji) are also merged in this MR.
+
+[@vishwassingh47/zongji](https://github.com/vishwassingh47/zongji) has been tested working with MySQL 5.5, 5.6, 5.7 and 8.0.
 
 It leverages [`@vlasky/mysql`](https://github.com/vlasky/mysql), a fork of [`mysql`](https://github.com/mysqljs/mysql) with the following enhancements:
 
