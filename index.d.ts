@@ -69,9 +69,8 @@ declare namespace ZongJi {
     getTypeName(): string;
     dump(): void;
   }
-
-  export interface IRowsEventData extends IBinlogEventData {
-    rows: { before: object; after: object }[];
+  export interface IInsertEventData extends IBinlogEventData {
+    rows: Record<string, any>[];
     tableId: number;
     tableMap: { [tableId: number]: ITableMap };
     flags: number;
@@ -81,6 +80,16 @@ declare namespace ZongJi {
     setTableMap(tableMap: { [tableId: number]: ITableMap }): void;
   }
 
+  export interface IUpdateEventData extends IBinlogEventData {
+    rows: { before: Record<string, any>; after: Record<string, any> }[];
+    tableId: number;
+    tableMap: { [tableId: number]: ITableMap };
+    flags: number;
+    useChecksum: boolean;
+    extraDataLength: number;
+    numberOfColumns: number;
+    setTableMap(tableMap: { [tableId: number]: ITableMap }): void;
+  }
   export interface IRotateEventData extends IBinlogEventData {
     position: BIGINT;
     binlogName: string;
