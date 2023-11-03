@@ -5,7 +5,7 @@ This version of Zongji is created as there are several OPEN ISSUES and OPEN PR's
 
 Fixes made by [@vlasky/zongji](https://github.com/vlasky/zongji) and [rodrigogs/zongji](https://github.com/rodrigogs/zongji) are also merged in this MR.
 
-[@vishwassingh47/zongji](https://github.com/vishwassingh47/zongji) has been tested working with MySQL 5.5, 5.6, 5.7 and 8.0.
+[@vishwassingh/zongji](https://github.com/vishwassingh47/zongji) has been tested working with MySQL 5.5, 5.6, 5.7 and 8.0.
 
 It leverages [`@vlasky/mysql`](https://github.com/vlasky/mysql), a fork of [`mysql`](https://github.com/mysqljs/mysql) with the following enhancements:
 
@@ -22,6 +22,11 @@ Version 0.4.7 is the last release that supports Node.js version 4.x.
 ## Quick Start
 
 ```javascript
+
+const ZongJi = require("@vishwassingh/zongji");
+
+// import ZongJi from "@vishwassingh/zongji";
+
 let zongji = new ZongJi({ /* ... MySQL Connection Settings ... */ });
 
 // Each change to the replication log results in an event
@@ -42,7 +47,7 @@ For a complete implementation see [`example.js`](example.js)...
 * Requires Node.js v8+
 
   ```bash
-  $ npm install @vlasky/zongji
+  $ npm install @vishwassingh/zongji
   ```
 
 * Enable MySQL binlog in `my.cnf`, restart MySQL server after making the changes.
