@@ -80,6 +80,8 @@ declare namespace ZongJi {
     setTableMap(tableMap: { [tableId: number]: ITableMap }): void;
   }
 
+  export type IDeleteEventData = IInsertEventData;
+
   export interface IUpdateEventData extends IBinlogEventData {
     rows: { before: Record<string, any>; after: Record<string, any> }[];
     tableId: number;
